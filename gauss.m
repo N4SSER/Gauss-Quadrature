@@ -16,5 +16,4 @@ Weights  =  double(subs(W(n),X));
 %function
 f = exp(-x)/x
 interval = [2 5]
-%Result
 result = Gauss(f,X,Weights,interval(1),interval(2))
